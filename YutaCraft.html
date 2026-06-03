@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YutaCraft</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navigation">
+                <div class="logo">
+                    <img src="src/img/logo.png" alt="Logo YutaCraft">
+                    <p>Yuta<span>Craft</span><span style="color: #4E40E7;">.</span></p>
+                </div>
+                <div class="nav-menu">
+                    <a href="#beranda">Beranda</a>
+                    <a href="#layanan">Layanan Kami</a>
+                    <a href="#portofolio">Portofolio</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="side-nav" id="sideNav">
+                    <span class="close-btn" onclick="toggleSideNav()">X</span>
+                    <a href="#beranda">Beranda</a>
+                    <a href="#layanan">Layanan Kami</a>
+                    <a href="#portofolio">Portofolio</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="btn-nav">
+                    <a href="#layanan">Pesan Sekarang</a>
+                </button>
+                <div class="nav-bar">
+                    <img src="src/img/nav-bar.png" alt="Menu Icon" onclick="toggleSideNav()"> 
+                </div>
+            </div>
+        </nav>
+        <section id="beranda">
+            <div class="container"> 
+                <div class="first-hero">
+                    <div class="container-round">
+                        <div class="circle"></div>
+                        <p>JASA PEMBUATAN WEBSITE</p>
+                    </div>
+                    <h1 class="hero-title">Kami Membuat Website Modern Untuk <span>Bisnis</span> Anda</h1>
+                    <p class="hero-desc">Solusi terbaik untuk kebutuhan Website Anda.Design Modernn, cepat, responsif, dan SEO friendly.Tingkatkan brand dan raih lebih banyak pelanggan!</p>
+                    <div class="btn">
+                        <button class="btn-port">
+                            <a href="#portofolio">Lihat Portofolio</a>
+                        </button>
+                        <button class="btn-hub">
+                            <a href="https://wa.me/62882005835557" target="_blank">
+                                Hubungi Kami <img src="src/img/arrow.png" alt="">
+                            </a>
+                        </button>
+                    </div>
+                    <div class="container-komitmen">
+                        <div class="komitmen">
+                            <h1>10+</h1>
+                            <p>Project Selesai</p>
+                        </div>
+                        <div class="komitmen">
+                            <h1>2+</h1>
+                            <p>Tahun Pengalaman</p>
+                        </div>
+                        <div class="komitmen">
+                            <h1>100%</h1>
+                            <p>Komitmen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-hero">
+                    <img src="src/img/hero-img.png" alt="hero-img" class="hero-img">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="layanan-kami" id="layanan">
+            <div class="layanan-container">
+                <div class="container-round-main">
+                    <div class="circle"></div>
+                    <p style="color: #4E40E7;">LAYANAN KAMI</p>
+                </div>
+                <h1 class="layanan-title">Layanan Terbaik Untuk Kebutuhan <span>Digital Anda</span> </h1>
+                <p class="layanan-desc">Kami menyediakan berbagai layanan pembuatan website sesuai kebutuhan bisnis Anda.</p>
+                <div class="layanan-card">
+                    <div class="service-card" data-service="Website Company Profile">
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="src/img/icon1.png" alt="" class="icon">
+                            </div>
+                                <p class="card-title">Website Company Profile</p>
+                                <p class="card-desc">Website profil perusahaan yang modern untuk meningkatkan kepercayaan client.</p>
+                        </div>
+                    </div>
+                    <div class="service-card" data-service="Toko Online">
+                    <div class="card">
+                        <div class="card-icon">
+                            <img src="src/img/icon2.png" alt="" class="icon">
+                        </div>
+                            <p class="card-title">Toko Online</p>
+                            <p class="card-desc">Membangun Toko Online lengkap dengan sistem pembayaran dan manajemen produk. </p>
+                    </div>
+                    </div>
+                    <div class="service-card" data-service="Sistem Informasi">
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="src/img/icon3.png" alt="" class="icon">
+                            </div>
+                                <p class="card-title">Sistem Informasi</p>
+                                <p class="card-desc">Sistem informasi berbasis
+                                    WEB yang memudahkan pengelolaan data dan informasi.</p>
+                        </div>
+                    </div>
+                    <div class="service-card" data-service="Landing Page">
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="src/img/icon4.png" alt="" class="icon">
+                            </div>
+                                <p class="card-title">Landing Page</p>
+                                <p class="card-desc">Landing Page yang menarik untuk keperluan promosi dan marketing produk anda.</p>
+                        </div>
+                    </div>
+                    <div class="service-card" data-service="Custom Website">
+                        <div class="card">
+                            <div class="card-icon">
+                                <img src="src/img/icon5.png" alt="" class="icon">
+                            </div>
+                                <p class="card-title">Custom Website</p>
+                                <p class="card-desc">Website custom sesuai kebutuhann Anda dengan fitur spesial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portofolio-section" id="portofolio">
+            <div class="portofolio">
+                <div class="container-round-main">
+                    <div class="circle"></div>
+                    <p style="color: #4E40E7;">PORTOFOLIO</p>
+                    
+                </div>
+                <h1 class="porto-title">Beberapa hasil <span>Project</span> yang kami buat</h1>
+                <div class="portofolio-card">
+                    <div class="card-p" data-id="1">
+                        <div class="card-p-img">
+                            <img src="src/img/project1.png" alt="">
+                        </div>
+                        <p class="card-p-title">Website Landing Page</p>
+                        <p class="card-p-desc">Project Landing  Page untuk Jasa Angkut Barang Kudus</p>
+                    </div>
+                    <div class="card-p" data-id="2">
+                        <div class="card-p-img">
+                            <img src="src/img/project2.png" alt="">
+                        </div>
+                        <p class="card-p-title">Website Toko Online</p>
+                        <p class="card-p-desc">Project website untuk Toko Online Khusus Welder</p>
+                    </div>
+                    <div class="card-p" data-id="3">
+                        <div class="card-p-img">
+                            <img src="src/img/project3.png" alt="">
+                        </div>
+                        <p class="card-p-title">Currency Converter Website</p>
+                        <p class="card-p-desc">Website untuk mengconvert currency atau mata uang  </p>
+                    </div>
+                    <div class="card-p">
+                        <div class="card-p-img" data-id="4">
+                            <img src="src/img/project1.png" alt="">
+                        </div>
+                        <p class="card-p-title">Website Landing Page</p>
+                        <p class="card-p-desc">Project website untuk Jasa Angkut Barang Kudus</p>
+                    </div>
+                </div>
+        </section>
+        <section class="kami">
+            <div class="kami-container">
+                <h1 class="kami-title">Mengapa <span>Memilih Kami</span> </h1>
+                <p class="kami-desc">Kami memberikan solusi terbaik dengan kualitas dan pelayanan yang tidak diragukan lagi</p>
+                <div class="card-kami">
+                    <div class="card-k">
+                        <div class="card-k-icon">
+                            <img src="src/img/k-icon-1.png" alt="" class="icon">
+                        </div>
+                            <p class="card-k-title">Design Modern</p>
+                            <p class="card-k-desc">Design elegan, kreatif dan sesuai dengan kebutuhan bisnis anda</p>
+                    </div>
+                    <div class="card-k">
+                        <div class="card-k-icon">
+                            <img src="src/img/k-icon-2.png" alt="" class="icon">
+                        </div>
+                            <p class="card-k-title">Responsif</p>
+                            <p class="card-k-desc">Tampilan yang menyesuaikan ukuran device</p>
+                    </div>
+                    <div class="card-k">
+                        <div class="card-k-icon">
+                            <img src="src/img/k-icon-3.png" alt="" class="icon">
+                        </div>
+                            <p class="card-k-title">SEO Friendly</p>
+                            <p class="card-k-desc">Struktur website yang dioptimalkan untuk mesin pencari</p>
+                    </div>
+                    <div class="card-k">
+                        <div class="card-k-icon">
+                            <img src="src/img/k-icon-4.png" alt="" class="icon">
+                        </div>
+                            <p class="card-k-title">Support Terbaik</p>
+                            <p class="card-k-desc">Kami siap membantu Anda kapan saja dengan layanan terbaik</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="testimonials">
+            <div class="testimonials-container">
+                <div class="container-round-main">
+                    <div class="circle"></div>
+                    <p style="color: #4E40E7;">TESTIMONIALS PELANGGAN</p>
+                </div>
+                <h1 class="testi-title">Apa Kata Mereka tentang <span>YutaCraft</span> </h1>
+                <p class="testi-desc">Kepuasan Pelanggan adalah Prioritas Kami.Ini cerita mereka setelah bekerja sama dengan kami.</p>
+                <div class="testi-card">
+                    <div class="testi-t" id="slider">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+            <section class="contact" id="contact">
+                <div class="contact-container">
+                    <div class="f-c-contain">
+                        <div class="contain-round-f">
+                        <div class="circle"></div>
+                        <p style="color: #4E40E7;">CONTACTS KAMI</p>
+                        </div>
+                        <h1 class="contact-title">Hubungi kami sekarang and Mulai <span>Project Anda</span></h1>
+                        <p class="contact-desc">Kami siap membantu anda menemukan ide
+                            untuk bisnis anda.</p>
+                        <div class="c-info">
+                            <div class="c-con">
+                                <div class="img-c-info">
+                                    <img src="src/img/wa.png" alt="">
+                                </div>
+                                <div class="info-desc">
+                                    <p class="info-c-title">WhatsApp</p>
+                                    <p>+62 882-0058-3557</p>
+                                </div>
+                            </div>
+                            <div class="c-con">
+                                <div class="img-c-info">
+                                    <img src="src/img/email.png" alt="">
+                                </div>
+                                <div class="info-desc">
+                                    <p class="info-c-title">Email</p>
+                                    <p>info@yutacraft.com</p>
+                                </div>
+                            </div>
+                            <div class="c-con">
+                                <div class="img-c-info">
+                                    <img src="src/img/lok.png" alt="">
+                                </div>
+                                <div class="info-desc">
+                                        <p class="info-c-title">Alamat</p>
+                                        <p>Jl. Raya Bogor No. 123, Jakarta</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s-c-contain">
+                        <form class="form">
+                            <div class="form-contain">
+                                <div class="form-group">
+                                    <label for="name">Nama Lengkap</label>
+                                    <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap Anda">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Pesan</label>
+                                    <textarea id="message" name="message" placeholder="Tulis pesan Anda di sini"></textarea>
+                                </div>
+                                <button type="submit" class="btn-submit">Kirim Pesan</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="footer-container">
+                <div class="footer-1">
+                    <div class="logo-footer">
+                        <img src="src/img/logo.png" alt="Logo YutaCraft">
+                        <a href="#">Yuta<span>Craft</span><span style="color: #4E40E7;">.</span></a>
+                    </div>
+                    <p class="desc-footer">Kami adalah tim profesional yang berfokus pada pembuatan website modern, cepat, dan sesuai kebutuhan bisnis Anda</p>
+                </div>
+                <div class="footer-2">
+                    <h1 class="footer-title">Navigasi</h1>
+                    <div class="quick">
+                        <a href="#beranda">Beranda</a>
+                        <a href="#layanan">Layanan Kami</a>
+                        <a href="#portofolio">Portofolio</a>
+                        <a href="#testimonials">Testimonials</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-3">
+                    <h1 class="footer-title">Layanan Kami</h1>
+                    <div class="quick">
+                        <a href="#">Website Company Profile</a>
+                        <a href="#">Toko Online</a>
+                        <a href="#">Sistem Informasi</a>
+                        <a href="#">Landing Page</a>
+                        <a href="#">Custom Website</a>
+                    </div>
+                </div>
+                    <div class="footer-4">
+                        <h1 class="footer-title">Kontak Kami</h1>
+                        <div class="contact-footer">
+                            <div class="c-f">
+                                <img src="src/img/wa.png" alt="">
+                                <p>+62 882-0058-3557</p>
+                            </div>
+                            <div class="c-f">
+                                <img src="src/img/email.png" alt="">
+                                <p>info@yutacraft.com</p>
+                            </div>
+                            <div class="c-f">
+                                <img src="src/img/lok.png" alt="">
+                                <p>jl. Raya Serpong No. 123, Tangerang, Banten</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+    <p>© 2026 YutaCraft. All Rights Reserved.</p>
+</div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="src/script/script.js"></script>
+    <script src="src/script/portofolio-data.js"></script>
+    <script src="src/script/detail.js"></script>
+</body>
+</html>
