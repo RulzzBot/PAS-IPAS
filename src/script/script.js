@@ -83,7 +83,7 @@ document.querySelectorAll(".service-card").forEach(card => {
         const service = card.dataset.service;
         const message = `Halo YutaCraft, saya tertarik dengan layanan anda ${service}`
         window.open(
-            `https://wa.me/62882005835557?text=${encodeURIComponent(message)}`,
+            `https://wa.me/6285701105008?text=${encodeURIComponent(message)}`,
             "_blank"
         );
     })
